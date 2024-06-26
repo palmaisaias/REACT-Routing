@@ -1,0 +1,20 @@
+.character-detail {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .character-detail h2 {
+    margin-top: 0;
+  }
+  
+  .character-detail ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .character-detail ul li {
+    margin-bottom: 8px;
+  }
+  
