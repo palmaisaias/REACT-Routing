@@ -2,4 +2,31 @@
     font-weight: bold;
     color: red;
   }
+
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
   
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the list items horizontal */
+    justify-content: space-around;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem; 
+    transition: color 0.3s ease; 
+  }
+  
+  nav a:hover {
+    color: #ff6347;
+  }

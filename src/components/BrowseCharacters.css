@@ -1,0 +1,31 @@
+div {
+    padding: 2rem; /* Padding around the div */
+  }
+  
+  h2 {
+    color: #333; /* Dark text color for the heading */
+    font-size: 2rem; /* Increase font size for the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem; /* Space below each list item */
+  }
+  
+  a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1rem; /* Increase font size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Change color on hover (Darker blue) */
+  }
+  

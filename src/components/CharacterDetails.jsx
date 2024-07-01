@@ -1,6 +1,7 @@
 import { PUBLIC_KEY, HASH_KEY, BASE_URL } from '../config';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import './CharacterDetails.css'
 
 const CharacterDetails = () => {
   const { id } = useParams();
