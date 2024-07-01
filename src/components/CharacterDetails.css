@@ -1,16 +1,12 @@
-.character-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .character-card {
-    border: 7px solid #940808;
-    border-radius: 8px;
-    padding: 16px;
+  p {
     text-align: center;
-    background-color: #ffffff;
+    font-size: 1.4rem;
   }
   
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+
