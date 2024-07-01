@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './CharacterDetails.css'
 
+
 const CharacterDetails = () => {
   const { id } = useParams();
   const [character, setCharacter] = useState(null);
@@ -38,7 +39,7 @@ const CharacterDetails = () => {
 
   return (
     <div>
-      <h1>Character Details</h1>
+      <h1 className='detail-title'>Character Details</h1>
       <h2>{character.name}</h2>
       <p>{character.description}</p>
       <img className='boxy' src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt={character.name} />

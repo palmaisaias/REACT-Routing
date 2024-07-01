@@ -6,6 +6,8 @@ import Comics from './components/Comics';
 import BrowseCharacters from './components/BrowseCharacters';
 import NotFound from './components/NotFound';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (

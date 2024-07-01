@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './BrowseCharacters.css'
+import { ListGroup } from 'react-bootstrap';
 
 const BrowseCharacters = () => {
   const characters = [
@@ -27,19 +28,34 @@ const BrowseCharacters = () => {
   ];
 
   return (
-    <div>
+    <div className='characters'>
       <h2>Browse Characters</h2>
-      <ul>
+      <ListGroup as="ul">
         {characters.map(character => (
-          <li key={character.id}>
+          <ListGroup.Item as="li" key={character.id}>
             <Link to={`/character-details/${character.id}`}>
               {character.name}
             </Link>
-          </li>
+          </ListGroup.Item>
         ))}
-      </ul>
+      </ListGroup>
     </div>
   );
+
+  // return (
+  //   <div>
+  //     <h2>Browse Characters</h2>
+  //     <ul>
+  //       {characters.map(character => (
+  //         <li key={character.id}>
+  //           <Link to={`/character-details/${character.id}`}>
+  //             {character.name}
+  //           </Link>
+  //         </li>
+  //       ))}
+  //     </ul>
+  //   </div>
+  // );
 };
 
 export default BrowseCharacters;
