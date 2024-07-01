@@ -1,20 +1,16 @@
-.character-detail {
-    border: 1px solid #ccc;
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .character-card {
+    border: 7px solid #940808;
+    border-radius: 8px;
     padding: 16px;
-    margin-top: 16px;
-    background-color: #f9f9f9;
-  }
-  
-  .character-detail h2 {
-    margin-top: 0;
-  }
-  
-  .character-detail ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .character-detail ul li {
-    margin-bottom: 8px;
+    text-align: center;
+    background-color: #ffffff;
   }
   
