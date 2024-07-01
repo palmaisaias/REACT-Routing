@@ -41,7 +41,7 @@ const CharacterDetails = () => {
       <h1>Character Details</h1>
       <h2>{character.name}</h2>
       <p>{character.description}</p>
-      <img src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt={character.name} />
+      <img className='boxy' src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt={character.name} />
     </div>
   );
 };

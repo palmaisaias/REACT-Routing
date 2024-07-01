@@ -19,11 +19,6 @@ const App = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/character-details/:id" activeClassName="active">
-                Character Details
-              </NavLink>
-            </li>
-            <li>
               <NavLink to="/comics" activeClassName="active">
                 Comics
               </NavLink>
